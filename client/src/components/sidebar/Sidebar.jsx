@@ -1,5 +1,5 @@
 import "./sidebar.css"
-import ME from "../images/ME.jpg"
+import ME from "../../images/ME.jpg"
 
 export default function Sidebar() {
   return (
