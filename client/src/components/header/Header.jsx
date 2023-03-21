@@ -1,5 +1,5 @@
 import "./header.css"
-import NodeImage from '../../images/NodeImg1.jpg';
+import NodeImage from '../../images/Header.jpg';
 
 export default function Header() {
   return (
