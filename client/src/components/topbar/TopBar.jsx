@@ -1,6 +1,6 @@
 import React from 'react'
 import "./topBar.css"
-import myImage from '../images/UserImg.jpg';
+import myImage from '../../images/UserImg.jpg';
 
 export default function TopBar() {
   return (
