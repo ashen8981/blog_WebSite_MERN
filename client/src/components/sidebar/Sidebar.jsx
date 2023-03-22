@@ -1,5 +1,6 @@
 import "./sidebar.css"
 import ME from "../../images/ME.jpg"
+import React from 'react';
 
 export default function Sidebar() {
   return (

@@ -1,5 +1,6 @@
 import './write.css'
 import  WRITE from '../../images/write.jpg'
+import React from 'react';
 
 export default function Write() {
   return (

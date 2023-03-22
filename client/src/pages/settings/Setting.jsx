@@ -1,6 +1,7 @@
 import './setting.css'
 import Sidebar from '../../components/sidebar/Sidebar'
 import SETTINGIMG from '../../images/NodeImg1.jpg'
+import React from 'react';
 
 export default function Setting() {
   return (

@@ -1,7 +1,22 @@
 import './singlepost.css'
 import SIMG from '../../images/singlepost.jpg'
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import axios from 'axios';
 
 export default function Singlepost() {
+  const location = useLocation()
+  const path = location.pathname.split("/")[2]
+
+  useEffect(()=>{
+    const getPost = async ()=>{
+      const res = await axios.get("/posts/"+path);
+      console.log(res)
+    };
+    getPost();
+  },[path]);
+
   return (
     <div className='singlePost'>
         <div className="singlePostWrapper">
@@ -9,8 +24,8 @@ export default function Singlepost() {
           <h1 className="singlePostTitle">
           Trees And Mountain in Alta, UT, United States 
             <div className="singlePostEdit">
-            <i class="singlePostIcon fa-solid fa-pen-to-square"></i>
-            <i class="singlePostIcon fa-solid fa-trash-can"></i>
+            <i className="singlePostIcon fa-solid fa-pen-to-square"></i>
+            <i className="singlePostIcon fa-solid fa-trash-can"></i>
             </div>
           </h1>
           <div className="singlePostInfo">
