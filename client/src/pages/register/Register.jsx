@@ -10,7 +10,7 @@ export default function Register() {
   const[error, setError] = useState(false);
 
   const handleSubmit = async (e) => {
-    e.preventDefault();  {/* to stop refresh the page when press the register button */}
+    e.preventDefault();  /* to stop refresh the page when press the register button */
     setError(false);
 
     try{
