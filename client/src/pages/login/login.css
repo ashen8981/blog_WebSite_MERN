@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: center;
     background: linear-gradient(
-        rgba(255,255,255,0.15),
-        rgba(255,255,255,0.15)
+        rgba(145, 208, 200, 0.911),
+        rgba(240, 212, 212, 0.55)
         ), url('../../images/login.jpg') ;
     background-size: cover;
     align-items: center;
